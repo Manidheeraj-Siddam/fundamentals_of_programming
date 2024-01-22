@@ -1,0 +1,7 @@
+- Avoid using global variables in Python function coding; however, you can use global constants for clearer code.
+
+- Do not use parentheses in `if` and `while` statements.
+
+- In the `kaprekar` function, I utilized a `while` statement by comparing the result with the Kaprekar constant 6174 instead of
+  terminating the loop when the number becomes equal to the previous number. This is because 6174 represents the desired 
+  outcome of the program, not the termination condition.

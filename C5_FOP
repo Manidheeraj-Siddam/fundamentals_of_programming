@@ -1,0 +1,15 @@
+Use of Lambda Functions - The power of lambda is better shown when you use them as an anonymous function inside another function.
+Data is code; to write clear code, we must provide detailed information about the data and use appropriate data structures.
+TIME COMPLEXITY :
+If I doubled the size of my list, how much longer will my algorithms take? If I increased the size of my input by a factor of 100, how much longer will by alogirthms take?
+Linear(n∗size)−Linear(size)  = n(k1+size∗k2)−(k1+size∗k2) = (n−1)(k1+size∗k2)∝n
+Binary(n∗size)−Binary(size) = k8∗log2n∗size - k8∗log2size = k8∗(log2n∗size−log2size)∝log2n
+
+The difference you should care about is
+talg1(1million) / talg1(100)  vs  talg2(1million) / talg2(100) 
+In fact you should expect LHS to be 10,000 times bigger than RHS
+
+Dictionaries:
+In the average case, dictionary operations such as insertion, deletion, and lookup can be performed in O(1) time complexity.
+The key idea is to use a hash function to convert a key into an index where the corresponding value is stored.
+The hash code may be larger than the size of the array, so it's typically reduced to a valid index using modulo operation (hash_code % array_size).
